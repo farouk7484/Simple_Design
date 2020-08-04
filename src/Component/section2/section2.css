@@ -1,0 +1,18 @@
+.section2{
+  height:100vh;
+  background: #3f14ff;
+   display: flex;
+  justify-content: space-around;
+  align-itmes:center;
+  padding:5vh;
+}
+.card2{
+  padding:1vw;
+  padding-top:15vw;
+  //border:1px solid black;
+  max-width:30vw;
+}
+.photo2{
+ width:50vw;
+ //border:1px solid black;
+}

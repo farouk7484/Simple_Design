@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+*{
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.section {
+  //border: 1px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  padding-top:7vw;
+}
