@@ -1,18 +1,25 @@
-.section2{
-  height:100vh;
-  background: #3f14ff;
-   display: flex;
-  justify-content: space-around;
-  align-itmes:center;
-  padding:5vh;
+.section2 {
+  background: #5c63ab;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
-.card2{
-  padding:1vw;
-  padding-top:15vw;
-  //border:1px solid black;
-  max-width:30vw;
+.card2 {
+  padding: 1vw;
+  max-width: 30rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.photo2{
- width:50vw;
- //border:1px solid black;
+.photo2 {
+  min-width: 20rem;
+}
+//css for making section 2 responsive
+.fl {
+  flex: 1 1 55vw; /*  Stretching: */
+  flex: 0 1 55vw; /*  No stretching: */
+  margin: 5px;
+  color: green;
 }
